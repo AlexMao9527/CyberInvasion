@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "CyberInvasion",
+			"Path": "D:\\CyberInvasion_Workspace\\CyberInvasion\\Source\\CyberInvasion.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "CyberInvasionEditor",
+			"Path": "D:\\CyberInvasion_Workspace\\CyberInvasion\\Source\\CyberInvasionEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

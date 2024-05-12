@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\CyberInvasion.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CyberInvasion.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CyberInvasionEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\CyberInvasion">
+      <UniqueIdentifier>{F0964051-5878-3A62-8EE2-249EB520A40F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\CyberInvasion\CyberInvasion.Build.cs">
+      <Filter>Source\CyberInvasion</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\CyberInvasion\CyberInvasion.cpp">
+      <Filter>Source\CyberInvasion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CyberInvasion\CyberInvasion.h">
+      <Filter>Source\CyberInvasion</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CyberInvasion\CyberInvasionCharacter.cpp">
+      <Filter>Source\CyberInvasion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CyberInvasion\CyberInvasionCharacter.h">
+      <Filter>Source\CyberInvasion</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\CyberInvasion\CyberInvasionGameMode.cpp">
+      <Filter>Source\CyberInvasion</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\CyberInvasion\CyberInvasionGameMode.h">
+      <Filter>Source\CyberInvasion</Filter>
+    </ClInclude>
+    <Filter Include="Source\CyberInvasion\Private">
+      <UniqueIdentifier>{DDDBB898-2292-31B6-A08F-9C12B18B7CC5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\AMMultiPlayerGameMode.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MAIShooterCharacter.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MGameModeBase.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MGameState.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MGasCan.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MGrenade.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MGrenadeLauncher.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MLaunchPad.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MMultiPlayerController.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MPickupActor.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MPlayerState.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MPowerupActor.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MRifle.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MShooterCharacter.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MShootPlayerController.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MSinglePlayerGameMode.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\MTrackerBot.cpp">
+      <Filter>Source\CyberInvasion\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\CyberInvasion\Private\Components">
+      <UniqueIdentifier>{4FDAA49D-5AE8-3172-91F6-C202C2522C78}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\CyberInvasion\Private\Components\MHealthComponent.cpp">
+      <Filter>Source\CyberInvasion\Private\Components</Filter>
+    </ClCompile>
+    <Filter Include="Source\CyberInvasion\Public">
+      <UniqueIdentifier>{BFB6F867-523E-3F7E-A35A-27260BE8F22A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\AMMultiPlayerGameMode.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MAIShooterCharacter.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MGameModeBase.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MGameState.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MGasCan.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MGrenade.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MGrenadeLauncher.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MLaunchPad.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MMultiPlayerController.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MPickupActor.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MPlayerState.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MPowerupActor.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MRifle.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MShooterCharacter.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MShootPlayerController.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MSinglePlayerGameMode.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\MTrackerBot.h">
+      <Filter>Source\CyberInvasion\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\CyberInvasion\Public\Components">
+      <UniqueIdentifier>{0E4CBDE0-48AE-37C6-8A9E-5DD5491C8DBB}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\CyberInvasion\Public\Components\MHealthComponent.h">
+      <Filter>Source\CyberInvasion\Public\Components</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
